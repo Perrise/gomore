@@ -1,0 +1,48 @@
+/* gomo.css */
+
+/* Set the background image for the entire page */
+body {
+    background-image: url("/images/IMG_8096.jpg");
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Prevent scrolling */
+}
+
+/* Style the header */
+header {
+    width:auto;
+    height:16px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the logo image */
+header img {
+    display:flex;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the social media icons in the footer */
+footer img {
+    margin: 5px;
+}
